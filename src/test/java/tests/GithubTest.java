@@ -19,7 +19,6 @@ public class GithubTest {
         // Убедитесь что загрузилась нужная страница
         $("h2.h2").shouldHave(Condition.text("All featured topics"));
         $$(".p-responsive.mt-6 li").shouldHave(CollectionCondition.size(3));
-
-
     }
+
 }
