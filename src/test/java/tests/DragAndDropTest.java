@@ -16,7 +16,6 @@ public class DragAndDropTest {
         // Проверьте, что прямоугольники действительно поменялись
         $("#column-a").shouldHave(Condition.text("B"));
         $("#column-b").shouldHave(Condition.text("A"));
-
     }
 
 }
